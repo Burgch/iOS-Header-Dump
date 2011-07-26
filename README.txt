@@ -22,17 +22,17 @@ The headers are then merged with the existing iOS headers in your SDK, without o
 
 ****************************************** PRE-REQUISITES ****************************************************
 
-You will need to download class-dump from: http://www.codethecode.com/projects/class-dump/ and then it must be located in "/usr/bin/class-dump"
+You will need to download class-dump from: http://www.codethecode.com/projects/class-dump/ and then copy just the executable to "/usr/bin/" on your Mac.
 
 You will also need to download subtrate.h from here: http://svn.saurik.com/repos/menes/trunk/mobilesubstrate/substrate.h and place it in the same folder as the scripts.
 
-You will need to copy libsubstrate.dylib from /usr/lib/libsubstrate.dylib on a jailbroken iOS device with MobileSubstrate installed to the same folder as the scripts and substrate.h
+You will need to copy libsubstrate.dylib from /usr/lib/libsubstrate.dylib on a jailbroken iOS device with MobileSubstrate installed to the same folder as the scripts and substrate.h on your Mac.
 
 ******************************************** USAGE ***********************************************************
 
 cd to the directory with the scripts and substrate.h in:
 
-Burgch$ cd /Users/Burgch/Documents/Developer/DumpHeaders
+Burgch$ cd /Users/Burgch/Desktop/DumpFrameworks
 
 The script takes one argument; the SDK directory for the SDK you would like to dump.
 
@@ -42,4 +42,4 @@ Burgch$ ./DumpFrameworks.sh /Developer/Platforms/iPhoneOS.platform/Developer/SDK
 
 When prompted, enter your super user password (this is required to copy the header files back to the SDK (you can check the script if you don't believe me :P)
 
-That's it, you're done, all header files for the sdk have been dumped, patched, and merged. Wasn't that easy :P
+That's it, you're done, all header files for the SDK have been dumped, patched, and merged. Wasn't that easy :P

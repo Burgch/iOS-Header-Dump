@@ -5,7 +5,7 @@
 
 # Takes one argument: 
 # The SDK Path (e.g. "/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk")
-# class-dump must be located in "/usr/bin/class-dump"
+# You must place the class-dump executable in "/usr/bin/"
 
 SDK=$1
 
@@ -50,5 +50,7 @@ sudo cp ./libsubstrate.dylib $SDK/usr/lib
 rm -rf ~/Desktop/HeaderDump
 rm -rf ~/Desktop/PatchedHeaderDump
 rm ~/Desktop/headers.h
+
+echo "Framework Dump completed successfully"
 
 exit 0
