@@ -1,4 +1,3 @@
-
 Copyright (C) 2011  Conor Burgess
 
 This program is free software: you can redistribute it and/or modify
@@ -43,3 +42,7 @@ Burgch$ ./DumpFrameworks.sh /Developer/Platforms/iPhoneOS.platform/Developer/SDK
 When prompted, enter your super user password (this is required to copy the header files back to the SDK (you can check the script if you don't believe me :P)
 
 That's it, you're done, all header files for the SDK have been dumped, patched, and merged. Wasn't that easy :P
+
+******************************************* NOTES ************************************************************
+
+Tested and confirmed to work on firmwares 3.X - 5.X
