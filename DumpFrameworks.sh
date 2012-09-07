@@ -39,7 +39,7 @@ class-dump --arch armv6 --arch armv7 -H $SDK/System/Library/CoreServices/SpringB
 
 # Patch Headers
 
-perl ./PatchHeaders.pl
+perl ./PatchHeaders.pl ~/Desktop/
 
 # Merge with Apple Headers
 

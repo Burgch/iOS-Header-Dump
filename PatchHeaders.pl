@@ -2,12 +2,12 @@
 
 # Patches all of the import commands in headers to point to the correct framework.
 
+my $desktop = $ARGV[0];
+
 use File::Find;
 use File::Path;
 
 sub getDesktop {
-    my $user = getlogin();
-    my $desktop = "/Users/" . $user . "/Desktop/";
     return $desktop;
 }
 
