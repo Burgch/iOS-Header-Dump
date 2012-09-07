@@ -15,6 +15,9 @@ rm -rf ~/Desktop/HeaderDump
 mkdir ~/Desktop/HeaderDump
 mkdir ~/Desktop/HeaderDump/Frameworks
 mkdir ~/Desktop/HeaderDump/PrivateFrameworks
+mkdir ~/Desktop/PatchedHeaderDump
+mkdir ~/Desktop/PatchedHeaderDump/Frameworks
+mkdir ~/Desktop/PatchedHeaderDump/PrivateFrameworks
 
 # Dump Public Frameworks
 
